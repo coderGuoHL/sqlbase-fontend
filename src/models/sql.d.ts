@@ -37,6 +37,9 @@ interface GenerateVO {
   javaEntityCode: string;
   javaObjectCode: string;
   typescriptTypeCode: string;
+  baseDaoCode: string;
+  mysqlDaoCode: string;
+  oracleDaoCode: string;
 }
 
 /**
