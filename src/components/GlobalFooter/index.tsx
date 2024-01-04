@@ -1,7 +1,6 @@
 import {
   BugOutlined,
   GithubOutlined,
-  SketchOutlined,
   UserOutlined,
 } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-components';
@@ -19,26 +18,16 @@ const GlobalFooter: React.FC = () => {
   return (
     <DefaultFooter
       className="default-footer"
-      copyright={`${currentYear} 程序员鱼皮`}
+      copyright={`${currentYear} cdeo`}
       links={[
         {
           key: 'master',
           title: (
             <>
-              <UserOutlined /> 站长：程序员鱼皮
+              <UserOutlined /> cdeo
             </>
           ),
-          href: 'https://space.bilibili.com/12890453',
-          blankTarget: true,
-        },
-        {
-          key: 'learn',
-          title: (
-            <>
-              <SketchOutlined /> 编程学习圈
-            </>
-          ),
-          href: 'https://yupi.icu',
+          href: 'https://github.com/coderGuoHL/sqlbase-fontend',
           blankTarget: true,
         },
         {
@@ -48,17 +37,17 @@ const GlobalFooter: React.FC = () => {
               <GithubOutlined /> 代码已开源
             </>
           ),
-          href: 'https://github.com/liyupi/sql-father-frontend-public',
+          href: 'https://github.com/coderGuoHL/sqlbase-fontend',
           blankTarget: true,
         },
         {
           key: 'feedback',
           title: (
             <>
-              <BugOutlined /> 建议反馈
+              <BugOutlined /> 交流QQ: 2396420165
             </>
           ),
-          href: 'https://support.qq.com/product/440825',
+          href: '.',
           blankTarget: true,
         },
       ]}

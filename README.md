@@ -2,7 +2,7 @@
 
 > SQL 之父项目：快速生成 SQL 和模拟数据，大幅提高开发测试效率！
 >
-> 前后端全栈项目 By [程序员鱼皮](https://docs.qq.com/doc/DUFFRVWladXVjeUxW)
+> 前后端全栈项目 By [cdeo](https://docs.qq.com/doc/DUFFRVWladXVjeUxW)
 >
 > **制作不易，请勿商用和二次售卖！！！**
 
